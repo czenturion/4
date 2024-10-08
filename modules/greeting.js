@@ -1,4 +1,4 @@
-let myName
+export let myName
 
 do {
   myName = prompt('Введите ваше имя:')
@@ -8,4 +8,4 @@ const greet = () => {
   alert('Добро пожаловать ' + myName)
 }
 
-greet()
+export default greet
